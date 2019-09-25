@@ -1,0 +1,139 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-top: none;
+  border-right: none;
+  border-bottom-color: #f6d365;
+  border-left: none;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0 1000px #1c2938 inset;
+
+}
+span{
+ margin-left: 3%;
+ color: white;
+}
+a{
+  color:red;
+  text-decoration: none;
+}
+.sec{
+  color:orange;
+}
+
+.back {
+  height: 74%;
+  width: 30%;
+  text-align: center;
+  background-image: url('http://beyondthrilled.com/wp-content/uploads/2013/07/beyondthrilled_raincollector_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 24px;
+  font-family: 'Concert One', cursive;
+}
+
+h1 {
+  margin-top: 40%;
+  font-size: 56px;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+
+  display: block;
+  height: 74%;
+  width: 30%;
+  padding-left: 2%;
+  background-color:#1c2938;
+  font-family: 'Concert One', cursive;
+}
+
+.hold {
+  color:white;
+  margin-top: 26%;
+  background-color:#1c2938;
+  margin-left: 2%;
+  font-size: 20px;
+  border-top: none;
+  border-right: none;
+  border-bottom-color: #f6d365;
+  border-left: none;
+  font-family: 'Concert One', cursive;
+
+}
+
+.hold:focus {
+  color:white;
+  margin-top: 26%;
+  background-color: #1c2938;
+  margin-left: 2%;
+  border-top: none;
+  border-right: none;
+  border-bottom-color: #f6d365;
+  border-left: none;
+  outline-width: 0;
+
+}
+
+.result {
+  color: #f6d365;
+  margin-left: 6%;
+  margin-top: 17%;
+  font-size: 25px;
+}
+
+.myButton {
+  -moz-box-shadow: inset 0 0 0 0 #54a3f7;
+  -webkit-box-shadow: inset 0 0 0 0 #54a3f7;
+  box-shadow: inset 0 0 0 0 #54a3f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+  background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+  background-color: #007dc1;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 4%;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #154682;
+}
+
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+  background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+  background-color: #0061a7;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
